@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moody Studio | Shopping Bag</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ECABEZADO-->
+  <header class="header">
+    <div class="header__container">
+      <div class="header__logo">MOODY STUDIO</div>
+      <nav class="header__nav">
+        <ul class="header__menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Store</a></li>
+          <li><a href="#">Accessories</a></li>
+          <li><a href="#">Brand</a></li>
+          <li><a href="#">Pages</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="header__icons">
+        
+        <img src="images/Group 40.png" >
+        <img src="images/Vector.png" >
+        <img src="images/bi_bucket.png"> 
+        <img src="images/Vector (1).png" >
+
+        
+      </div>
+    </div>
+    <div class="header__breadcrumb">
+      <a href="#">homepage</a> / <span>shopping bag</span>
+    </div>
+  </header>
+
+  <!-- CONTENIDO ORINCIAPL -->
+  <main class="shopping-bag">
+    <div class="shopping-bag__container">
+      <h2 class="shopping-bag__title">Shopping Bag</h2>
+      <div class="shopping-bag__content">
+        <!-- INTEMS DE LA IZQUIERDA -->
+        <div class="shopping-bag__items">
+          <div class="shopping-bag__item">
+            <img src="images/Rectangle 83.png" alt="Checked Duvet Cover Set" class="shopping-bag__item-image">
+            <div class="shopping-bag__item-details">
+              <h3 class="shopping-bag__item-name">Checked Duvet Cover Set</h3>
+              <p class="shopping-bag__item-art">Art. No: 5489132</p>
+              <p class="shopping-bag__item-color">Color: Olive</p>
+              <p class="shopping-bag__item-size">Size: 210x150</p>
+              <p class="shopping-bag__item-price">$39.95</p>
+              <label>Qty:
+                <select name="quantity" class="shopping-bag__item-qty">
+                  <option>1</option>
+                  <option>2</option>
+                </select>
+              </label>
+            </div>
+            <button class="shopping-bag__item-remove">✕</button>
+          </div>
+          <div class="shopping-bag__item">
+            <img src="images/Rectangle 96.png" alt="Textured Throw" class="shopping-bag__item-image">
+            <div class="shopping-bag__item-details">
+              <h3 class="shopping-bag__item-name">Textured Throw</h3>
+              <p class="shopping-bag__item-art">Art. No: 495644</p>
+              <p class="shopping-bag__item-color">Color: Beige</p>
+              <p class="shopping-bag__item-size">Size: 127x170</p>
+              <p class="shopping-bag__item-price">$42.95</p>
+              <label>Qty:
+                <select name="quantity" class="shopping-bag__item-qty">
+                  <option>1</option>
+                  <option>2</option>
+                </select>
+              </label>
+            </div>
+            <button class="shopping-bag__item-remove">✕</button>
+          </div>
+        </div>
+
+        <!-- RESUMEN DE LA DERECHA -->
+        <aside class="shopping-bag__summary">
+          <h3 class="summary__title">Summary</h3>
+          <form class="summary__discount-form">
+            <input type="text" placeholder="Discount Code" class="summary__input">
+            <button type="submit" class="summary__button">Apply</button>
+          </form>
+          <p class="summary__login-text">Log in to use your member offers</p>
+          <button class="summary__login-button">Log In</button>
+          <div class="summary__totals">
+            <p>Subtotal: <span>$82.90</span></p>
+            <p>Shipping: <span>$0.00</span></p>
+            <p class="summary__total">Total: <span>$82.90</span></p>
+          </div>
+          <button class="summary__checkout-button">Proceed to Checkout</button>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <!-- PRODUCTOS SUGERIDOS  -->
+  <section class="suggested">
+    <h2 class="suggested__title">You May Also Like</h2>
+    <div class="suggested__list">
+      <div class="suggested__item">
+        <img src="images/Rectangle67.png" alt="Flannel Duvet Cover Set">
+        <p class="suggested__item-name">Flannel Duvet Cover Set</p>
+        <p class="suggested__item-price">$30.00</p>
+      </div>
+      <div class="suggested__item">
+        <img src="images/Rectangle 76.png" alt="Ribbed Wool-blend Throw">
+        <p class="suggested__item-name">Ribbed Wool-blend Throw</p>
+        <p class="suggested__item-price">$30.00</p>
+      </div>
+      <div class="suggested__item">
+        <img src="images/Rectangle70.png" alt="Fitted Cotton Sheet">
+        <p class="suggested__item-name">Fitted Cotton Sheet</p>
+        <p class="suggested__item-price">$30.00</p>
+      </div>
+      <div class="suggested__item">
+        <img src="images/Rectangle 75.png" alt="Washed Linen Pillowcase">
+        <p class="suggested__item-name">Washed Linen Pillowcase</p>
+        <p class="suggested__item-price">$30.00</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PIE DE PAGINA  -->
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__brand">
+        <h3>URBAN OUTFITTERS</h3>
+        <p>121 King Street, Melbourne 3000</p>
+        <p>+61 3 8376 6284</p>
+        <p>contact@urbanoutfitters.com</p>
+        <div class="footer__social">
+          <a href="#">Facebook</a>
+          <a href="#">Twitter</a>
+          <a href="#">Instagram</a>
+        </div>
+      </div>
+      <div class="footer__links">
+        <div class="footer__column">
+          <h4>Shopping</h4>
+          <ul>
+            <li><a href="#">Your Cart</a></li>
+            <li><a href="#">Order Status</a></li>
+            <li><a href="#">Wishlist</a></li>
+          </ul>
+        </div>
+        <div class="footer__column">
+          <h4>More</h4>
+          <ul>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Delivery</a></li>
+            <li><a href="#">Returns</a></li>
+          </ul>
+        </div>
+        <div class="footer__column">
+          <h4>From the Blog</h4>
+          <ul>
+            <li><a href="#">26 Mar - New Collection</a></li>
+            <li><a href="#">27 Mar - Spring Trends</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <p class="footer__copy">© 2025 Urban Outfitters - All rights reserved</p>
+  </footer>
+
+</body>
+</html>

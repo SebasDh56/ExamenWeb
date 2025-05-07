@@ -120,7 +120,7 @@ body {
   color: #000;
 }
 
-/* ---------------- MAIN SHOPPING BAG ---------------- */
+/* ------------Perte principal ---------------- */
 .shopping-bag {
   max-width: 1200px;
   margin: 2rem auto;
@@ -298,7 +298,7 @@ body {
   background-color: #333;
 }
 
-/* ---------------- SUGGESTED PRODUCTS ---------------- */
+/* ----------------seccion de productos sugeridos---------------- */
 .suggested {
   max-width: 1200px;
   margin: 2rem auto;
@@ -353,7 +353,7 @@ body {
   color: #666;
 }
 
-/* ---------------- FOOTER ---------------- */
+/* ------------Pie de pagina-------- */
 .footer {
   background-color: #111;
   color: #eee;
